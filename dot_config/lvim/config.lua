@@ -8,6 +8,7 @@
 vim.opt.colorcolumn = '80'      -- Line lenght marker at 80 columns
 vim.opt.linebreak = true        -- Wrap on word boundary
 vim.opt.cursorcolumn = true
+vim.opt.relativenumber = true
 vim.opt.completeopt="menuone,noinsert,noselect"
 vim.opt.rtp:append('/opt/homebrew/opt/fzf')
 --  set rtp+=/opt/homebrew/opt/fzf
