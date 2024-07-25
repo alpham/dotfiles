@@ -227,6 +227,7 @@ require("catppuccin").setup({
 lvim.colorscheme = "catppuccin"
 require("user.ls_emmet")
 
+lvim.builtin.nvimtree.setup.view.side = "right"
 require("telescope").load_extension("live_grep_args")
 lvim.builtin.telescope.theme = ""
 lvim.builtin.which_key.mappings.s.t = {
