@@ -32,10 +32,13 @@ lvim.builtin.nvimtree.setup.view.side = "right"
 lvim.builtin.telescope.theme = ""
 require("telescope").load_extension("live_grep_args")
 
+
+-- require("user.functions")
 require("user.springboot-gradle")
 require("user.js-dap")
 require("user.lualine")
 require("user.whichkey")
 require("user.theme")
 require("user.ls_emmet")
+require("user.lspconfig")
 

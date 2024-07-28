@@ -1,0 +1,4 @@
+-- vim.api.nvim_create_user_command('HideSidePanels',function()
+--   vim.cmd "norm! NvimTreeClose"
+--   vim.cmd "norm! OutlineClose"
+-- end,{})
