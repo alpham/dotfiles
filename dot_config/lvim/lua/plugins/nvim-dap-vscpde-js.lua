@@ -1,5 +1,6 @@
 return {
   "mxsdev/nvim-dap-vscode-js",
+  dependencies = "mfussenegger/nvim-dap",
   config = function()
     ---@diagnostic disable-next-line: missing-fields
     require("dap-vscode-js").setup({
