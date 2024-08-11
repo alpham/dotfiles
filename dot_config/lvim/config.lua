@@ -13,28 +13,22 @@ vim.opt.conceallevel = 1
 vim.opt.cursorcolumn = true
 vim.opt.linebreak = true   -- Wrap on word boundary
 vim.opt.relativenumber = true
+
 vim.opt.rtp:append('/opt/homebrew/opt/fzf')
-
-vim.list_extend(lvim.lsp.automatic_configuration.skipped_servers, { "hydra_lsp" })
-vim.list_extend(lvim.lsp.automatic_configuration.skipped_servers, { "jdtls" })
-
 
 
 lvim.plugins = {
   { import = 'plugins' },
-  -- 'mg979/vim-visual-multi',
 }
-
 
 
 lvim.transparent_window = true
 lvim.builtin.nvimtree.setup.view.side = "right"
-lvim.builtin.telescope.theme = ""
+
 
 require("user.springboot-gradle")
 require("user.lualine")
 require("user.telescope")
 require("user.whichkey")
 require("user.theme")
-require("user.ls_emmet")
 

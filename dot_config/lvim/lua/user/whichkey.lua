@@ -18,3 +18,8 @@ lvim.builtin.which_key.mappings.o = { -- Example mapping to toggle outline
 lvim.builtin.which_key.mappings.s.t = {
   require('telescope').extensions.live_grep_args.live_grep_args, "Live grep args"
 }
+
+lvim.builtin.which_key.mappings["C"] = {
+  name = "Python",
+  c = { "<cmd>lua require('swenv.api').pick_venv()<cr>", "Choose venv" }
+}

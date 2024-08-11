@@ -1,4 +1,5 @@
 require("dap-python").setup("python", {})
+
 table.insert(require("dap").configurations.python, {
   type = "python",
   request = "attach",

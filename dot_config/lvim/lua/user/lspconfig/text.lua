@@ -1,2 +1,1 @@
-
 require("lspconfig").textlsp.setup {}
