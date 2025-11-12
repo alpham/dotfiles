@@ -46,10 +46,10 @@ lvim.builtin.nvimtree.setup.view.relativenumber = true
 lvim.builtin.nvimtree.setup.view.number = true
 lvim.builtin.breadcrumbs.active = false
 
-require("user.springboot-gradle")
+-- require("user.springboot-gradle")
 require("user.lualine")
 require("user.telescope")
 require("user.whichkey")
 require("user.theme")
-require("user.ducktype")
-require("user.minimap")
+-- require("user.ducktype")
+-- require("user.minimap")
