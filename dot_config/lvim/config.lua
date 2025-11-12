@@ -11,10 +11,28 @@ vim.opt.colorcolumn = '80' -- Line lenght marker at 80 columns
 vim.opt.completeopt = "menuone,noinsert,noselect"
 vim.opt.conceallevel = 1
 vim.opt.cursorcolumn = true
-vim.opt.linebreak = true   -- Wrap on word boundary
+vim.opt.linebreak = true -- Wrap on word boundary
 vim.opt.relativenumber = true
-
+-- vim.opt.winbar = "%=%m %f"   -- show current buffer relative path below bufferline
 vim.opt.rtp:append('/opt/homebrew/opt/fzf')
+
+lvim.builtin.alpha.dashboard.section.header.val = {
+  "                                              ",
+  "  ██  ██  ████████  ████████  ██  ██  ██  ██  ",
+  "  ██  ██  ██              ██  ██  ██          ",
+  "  ██  ██  ██████████████████  ██  ██  ██████  ",
+  "  ██  ██                      ██  ██  ██  ██  ",
+  "  ██  ██  ██████  ██  ██████████  ██  ██████  ",
+  "  ██  ██  ██                      ██      ██  ",
+  "  ██  ██████████  ██  ██████  ██  ██████████  ",
+  "  ██  ██          ██      ██      ██          ",
+  "  ██████████  ██████  ██████  ██  ██  ██████  ",
+  "      ██  ██  ██              ██  ██  ██  ██  ",
+  "  ██  ██████  ██████  ██████████  ██  ██████  ",
+  "  ██              ██              ██      ██  ",
+  "  ██████████████████  ██████████████  ██████  ",
+  "                                              ",
+}
 
 
 lvim.plugins = {
@@ -24,11 +42,14 @@ lvim.plugins = {
 
 lvim.transparent_window = true
 lvim.builtin.nvimtree.setup.view.side = "right"
-
+lvim.builtin.nvimtree.setup.view.relativenumber = true
+lvim.builtin.nvimtree.setup.view.number = true
+lvim.builtin.breadcrumbs.active = false
 
 require("user.springboot-gradle")
 require("user.lualine")
 require("user.telescope")
 require("user.whichkey")
 require("user.theme")
-
+require("user.ducktype")
+require("user.minimap")

@@ -1,4 +1,5 @@
 lvim.builtin.lualine.options.section_separators = {left="", right=""}
+lvim.builtin.lualine.sections.lualine_c = {{'filename', path=1}}
 
 -- lvim.builtin.lualine.style = "default"
 -- require('lualine').setup {
