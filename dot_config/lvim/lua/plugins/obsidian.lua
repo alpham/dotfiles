@@ -24,7 +24,7 @@ return {
       -- },
       {
         name = "work",
-        path = "~/Documents/Personal-notes/",
+        path = "~/Documents/alpham-notes",
       },
     },
 

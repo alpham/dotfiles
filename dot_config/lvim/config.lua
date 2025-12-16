@@ -44,6 +44,7 @@ lvim.transparent_window = true
 lvim.builtin.nvimtree.setup.view.side = "right"
 lvim.builtin.nvimtree.setup.view.relativenumber = true
 lvim.builtin.nvimtree.setup.view.number = true
+-- lvim.builtin.nvimtree.setup.
 lvim.builtin.breadcrumbs.active = false
 
 require("user.springboot-gradle")

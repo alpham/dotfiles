@@ -213,3 +213,5 @@ export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
 
 # Added by Windsurf
 export PATH="/Users/ahmed.magdy/.codeium/windsurf/bin:$PATH"
+export NVS_HOME="$HOME/.nvs"
+[ -s "/opt/homebrew/Caskroom/nvs/1.7.1/nvs-1.7.1/nvs.sh" ] && . "/opt/homebrew/Caskroom/nvs/1.7.1/nvs-1.7.1/nvs.sh"
